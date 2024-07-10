@@ -103,6 +103,8 @@ footer {
   display: flex;
   align-items: center;
   gap: 300px;
+}
+.header {
   border-bottom: 1px solid rgba(var(--cornflower-cl));
 }
 .nav {
@@ -230,8 +232,9 @@ footer {
   color: rgba(var(--navy-blue-cl));
   margin-bottom: 8px;
 }
-.features {
-  /* margin: 172px 0; */
+.features,
+.team,
+.portfolio {
   padding: 120px 0;
 }
 .features-list {
@@ -246,7 +249,6 @@ footer {
 
 .team {
   background: rgba(var(--coud-cl));
-  padding: 120px 0;
 }
 .team-list {
   gap: 24px;
