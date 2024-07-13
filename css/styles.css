@@ -80,7 +80,6 @@ footer {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   overflow: hidden;
-  margin-bottom: 8px;
 }
 
 .container {
@@ -173,7 +172,6 @@ footer {
   align-items: center;
   padding: 188px 0;
 
-  /* height: 600px; */
   background-color: rgba(var(--navy-blue-cl));
 }
 .hero-title {
